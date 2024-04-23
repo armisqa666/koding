@@ -1,3 +1,3 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 ADD service.test /tmp/
 CMD /tmp/service.test -test.v=true
