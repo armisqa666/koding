@@ -13,7 +13,9 @@
   "scripts": {
     "preinstall": "./.npm-preinstall.sh",
     "install": "./.npm-install.sh",
-    "postinstall": "./.npm-postinstall.sh"
+    "postinstall": "./.npm-postinstall.sh",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": "6"
@@ -47,7 +49,7 @@
     "deep-equal": "1.0.1",
     "disposable-email-domains": "1.0.14",
     "dns": "0.2.2",
-    "dogapi": "2.6.0",
+    "dogapi": "2.8.4",
     "embedly": "2.1.0",
     "es": "0.5.2",
     "eventemitter2": "3.0.1",
@@ -81,7 +83,7 @@
     "node-dogstatsd": "0.0.6",
     "node-sockjs-client": "1.0.7",
     "node-syntaxhighlighter": "0.8.1",
-    "nodemailer": "2.7.0",
+    "nodemailer": "4.0.1",
     "oauth": "0.9.15",
     "on-finished": "2.3.0",
     "opentok": "2.5.0",
@@ -92,7 +94,7 @@
     "ratelimit.js": "1.8.0",
     "read": "1.0.7",
     "redis": "2.6.3",
-    "request": "2.79.0",
+    "request": "2.88.2",
     "sendmail": "1.1.1",
     "shortid": "2.2.6",
     "simple-recaptcha": "0.0.3",
@@ -116,7 +118,8 @@
     "winston": "2.3.0",
     "winston-papertrail": "1.0.4",
     "xml2js": "0.4.17",
-    "yield-siftscience": "0.2.0"
+    "yield-siftscience": "0.2.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "chai": "3.5.0",
@@ -128,5 +131,6 @@
     "sync-request": "4.0.1",
     "which": "1.2.12"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "snyk": true
 }
