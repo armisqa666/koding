@@ -13,7 +13,9 @@
   "scripts": {
     "preinstall": "./.npm-preinstall.sh",
     "install": "./.npm-install.sh",
-    "postinstall": "./.npm-postinstall.sh"
+    "postinstall": "./.npm-postinstall.sh",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": "6"
@@ -53,9 +55,9 @@
     "eventemitter2": "3.0.1",
     "express": "4.14.0",
     "faker": "3.1.0",
-    "geoip-lite": "1.1.8",
+    "geoip-lite": "1.2.2",
     "github": "7.3.1",
-    "gitlab": "1.7.1",
+    "gitlab": "14.2.2",
     "googleapis": "16.0.0",
     "gulp": "3.9.1",
     "hat": "0.0.3",
@@ -116,7 +118,8 @@
     "winston": "2.3.0",
     "winston-papertrail": "1.0.4",
     "xml2js": "0.4.17",
-    "yield-siftscience": "0.2.0"
+    "yield-siftscience": "0.2.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "chai": "3.5.0",
@@ -128,5 +131,6 @@
     "sync-request": "4.0.1",
     "which": "1.2.12"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "snyk": true
 }
