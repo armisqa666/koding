@@ -1,0 +1,104 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - dns > tomahawk > winston > request > mime:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:mime:20170907'
+        path: dns > tomahawk > winston > request > mime
+    - dns > tomahawk > express > send > mime:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:mime:20170907'
+        path: dns > tomahawk > express > send > mime
+    - dns > tomahawk > winston > request > form-data > mime:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:mime:20170907'
+        path: dns > tomahawk > winston > request > form-data > mime
+    - dns > tomahawk > express > serve-static > send > mime:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:mime:20170907'
+        path: dns > tomahawk > express > serve-static > send > mime
+  'npm:minimatch:20160620':
+    - coffee-unused > jasmine-node > gaze > fileset > glob > minimatch:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:minimatch:20160620'
+        path: coffee-unused > jasmine-node > gaze > fileset > glob > minimatch
+    - coffee-unused > jasmine-node > gaze > fileset > minimatch:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:minimatch:20160620'
+        path: coffee-unused > jasmine-node > gaze > fileset > minimatch
+    - coffee-unused > jasmine-node > gaze > minimatch:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:minimatch:20160620'
+        path: coffee-unused > jasmine-node > gaze > minimatch
+  'npm:ms:20151024':
+    - dns > tomahawk > connect > debug > ms:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:ms:20151024'
+        path: dns > tomahawk > connect > debug > ms
+    - dns > tomahawk > express > debug > ms:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:ms:20151024'
+        path: dns > tomahawk > express > debug > ms
+    - dns > tomahawk > express > send > ms:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:ms:20151024'
+        path: dns > tomahawk > express > send > ms
+    - dns > tomahawk > express > finalhandler > debug > ms:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:ms:20151024'
+        path: dns > tomahawk > express > finalhandler > debug > ms
+    - dns > tomahawk > express > send > debug > ms:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:ms:20151024'
+        path: dns > tomahawk > express > send > debug > ms
+    - dns > tomahawk > connect > finalhandler > debug > ms:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:ms:20151024'
+        path: dns > tomahawk > connect > finalhandler > debug > ms
+    - dns > tomahawk > express > serve-static > send > ms:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:ms:20151024'
+        path: dns > tomahawk > express > serve-static > send > ms
+    - dns > tomahawk > express > serve-static > send > debug > ms:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:ms:20151024'
+        path: dns > tomahawk > express > serve-static > send > debug > ms
+  'npm:negotiator:20160616':
+    - dns > tomahawk > errorhandler > accepts > negotiator:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:negotiator:20160616'
+        path: dns > tomahawk > errorhandler > accepts > negotiator
+    - dns > tomahawk > express > accepts > negotiator:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:negotiator:20160616'
+        path: dns > tomahawk > express > accepts > negotiator
+  'npm:qs:20140806-1':
+    - dns > tomahawk > winston > request > qs:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:qs:20140806-1'
+        path: dns > tomahawk > winston > request > qs
+    - dns > tomahawk > body-parser > qs:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:qs:20140806-1'
+        path: dns > tomahawk > body-parser > qs
+    - dns > tomahawk > express > qs:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:qs:20140806-1'
+        path: dns > tomahawk > express > qs
+  'npm:request:20160119':
+    - dns > tomahawk > winston > request:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:request:20160119'
+        path: dns > tomahawk > winston > request
+  'npm:ws:20160920':
+    - dns > tomahawk > socket.io > engine.io > ws:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:ws:20160920'
+        path: dns > tomahawk > socket.io > engine.io > ws
+    - dns > tomahawk > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2024-09-29T03:54:49.148Z'
+        id: 'npm:ws:20160920'
+        path: dns > tomahawk > socket.io > socket.io-client > engine.io-client > ws
