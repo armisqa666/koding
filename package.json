@@ -99,7 +99,7 @@
     "sockjs": "0.3.18",
     "speakeasy": "1.0.3",
     "stripcolorcodes": "0.1.0",
-    "stylus": "0.54.5",
+    "stylus": "0.64.0",
     "terraform-yml": "hakankaradis/stack-docs-search",
     "toml-js": "0.0.8",
     "tough-cookie": "2.3.2",
