@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER Cihangir Savas <cihangir@koding.com>
 
 # set the time to UTC
