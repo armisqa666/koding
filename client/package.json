@@ -8,7 +8,7 @@
     "@koding/inherits-underscore": "0.3.0",
     "@koding/shortcuts": "0.6.0",
     "accounting": "0.4.1",
-    "algoliasearch": "3.20.3",
+    "algoliasearch": "4.0.0",
     "async": "2.1.4",
     "axios": "0.15.3",
     "backoff": "2.5.0",
