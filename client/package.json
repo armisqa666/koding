@@ -36,7 +36,7 @@
     "indefinite-article": "0.0.2",
     "inputmask-core": "2.2.0",
     "jquery": "3.1.1",
-    "js-yaml": "3.7.0",
+    "js-yaml": "3.14.2",
     "kd-shim-jquery-sketchpad": "0.1.1",
     "kd-shim-jspath": "0.2.0",
     "kd-shim-sockjs-client": "0.3.4",
